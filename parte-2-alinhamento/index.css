@@ -13,14 +13,16 @@ body {
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 10px 10px 10px;
-  grid-template-rows: 10px 10px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 5px;
 
-  justify-content: space-around;
-  align-content: space-evenly;
+  align-items: center;
+  justify-items: center;
 }
 
 .container > div {
   background: #7159c1;
+  width: 50%;
+  height: 50%;
 }
