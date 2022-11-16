@@ -20,9 +20,9 @@ Vamos separá-los em 2 grupos:
 
 Sabendo que o grid é bidimensional, nós temos o eixo **X** e o **Y**.
 
-O **eixo X** é o posicionamento horizontal, da esquerda pra direita.
+O **eixo X** é o posicionamento horizontal, da esquerda pra direita. Propriedades com `justify` em seu nome alteram a posição com base no o eixo X.
 
-O **eixo Y** é o posicionamento vertical, de baixo pra cima.
+O **eixo Y** é o posicionamento vertical, de baixo pra cima. Propriedades com `align` em seu nome alteram a posição com base no o eixo Y.
 
 ### Content, Items e Self
 
@@ -55,3 +55,9 @@ Podemos usar **4 valores**:
 2. `end`
 3. `center`
 4. `stretch`
+
+### Self
+
+`justify-self` e `align-self` vai nos permitir alinhar o item em si.
+
+Faz a mesma coisa que o `justify-items` e `align-items`, porem, aplicado diretamente no item de um grid.

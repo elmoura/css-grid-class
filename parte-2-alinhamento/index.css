@@ -18,11 +18,16 @@ body {
   grid-gap: 5px;
 
   align-items: center;
-  justify-items: center;
+  justify-self: center;
 }
 
 .container > div {
   background: #7159c1;
   width: 50%;
   height: 50%;
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
 }
