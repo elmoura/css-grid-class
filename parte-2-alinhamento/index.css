@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 10px 10px 10px;
+  grid-template-rows: 10px 10px 10px;
+  grid-gap: 5px;
+
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
+.container > div {
+  background: #7159c1;
+}

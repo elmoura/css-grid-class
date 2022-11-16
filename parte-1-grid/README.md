@@ -22,20 +22,20 @@ Vamos separar em 2 grupos:
 
 ### Container
 
-- display: grid;
-- grid-template-columns;
-- grid-template-rows;
-- grid-gap;
-- grid-row-gap
-- grid-row-gap
-- grid-template-areas;
+- `display: grid`
+- `grid-template-columns`
+- `grid-template-rows`
+- `grid-gap`
+- `grid-row-gap`
+- `grid-row-gap`
+- `grid-template-areas`
 
 ### Item(s)
 
-- grid-column
-- grid-column-start
-- grid-column-end
-- grid-row
-- grid-row-start
-- grid-row-end
-- grid-area
+- `grid-column`
+- `grid-column-start`
+- `grid-column-end`
+- `grid-row`
+- `grid-row-start`
+- `grid-row-end`
+- `grid-area`
